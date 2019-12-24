@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
   font-family: "Lato", sans-serif;
@@ -7,27 +7,48 @@ body {
 section {
   text-align: center;
   margin-top: 40px;
-} 
+}
 section h2 {
   display: inline-block;
   margin: 0 auto 35px;
   text-transform: uppercase;
   border-bottom: 10px solid #3d94ca;
 }
+.service-item {
+  position: relative;
+}
 .service-icon {
-    color: white;
-    position: absolute;
-    top: 3%;
-    left: 1%;
-    background-color: #3D94CA;
-    padding: 20px;
-    border-radius: 50%;
-
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #3d94ca;
+  padding: 25px;
+  border-radius: 50%;
 }
 .service-text {
-  padding-left: 65px;
+  padding-left: 85px;
   text-align: left;
 }
 .service-title {
-    text-transform: uppercase;
+  color: #3d94ca;
+  text-transform: uppercase;
+}
+
+@media (max-width: 640px) {
+  .service-item {
+    min-height: 230px;
+  }
+  .service-icon {
+    padding: 20px;
+  }
+  .service-text {
+    padding-left: 75px;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-item {
+    min-height: auto;
+  }
 }
