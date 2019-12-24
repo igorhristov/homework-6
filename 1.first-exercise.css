@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+section {
+  text-align: center;
+  margin-top: 40px;
+} 
+section h2 {
+  display: inline-block;
+  margin: 0 auto;
+  text-transform: uppercase;
+  border-bottom: 10px solid #3d94ca;
+  margin-bottom: 35px;
+}
+.service-icon {
+    color: #3D94CA;
+}
+.service-title {
+    text-transform: uppercase;
+    margin: 10px auto;
+}
